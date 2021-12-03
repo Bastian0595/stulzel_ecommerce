@@ -258,12 +258,12 @@ const Salon = () => {
                     </div>                       
                 </div>
             </div>
-            <div>
+            {/* <div>
                 <button className="entrada" onClick={ () => abrirModal()}>GRATIS tu entrada aquí</button>
-            </div>
+            </div> */}
             <Footer1 />
             <Footer2 />
-            <Modal title="" visible={open} onOk={() => setOpen(false)} onCancel={() => setOpen(false)}>
+            {/* <Modal title="" visible={open} onOk={() => setOpen(false)} onCancel={() => setOpen(false)}>
                 <div className="fondoModal">
                     <div className="imgSalon">
                         <img src={look} alt="look" /> 
@@ -276,7 +276,7 @@ const Salon = () => {
                     </div>
                 </div>
                     
-            </Modal>
+            </Modal> */}
         </>
     );
 }

@@ -41,7 +41,7 @@ const AppRouter  = () => {
                 <Route exact path="/signUp" component={ SignUpScreen } />
                 <Route exact path="/signIn" component={ SignInScreen } />
                 <Route exact path="/salonlook/:name" component={ Salon } />
-                <Route exact path="/cursos" component={ Curso } />
+                {/* <Route exact path="/cursos" component={ Curso } /> */}
                 <Route exact path="/webinar" component={ WebinarScreen } />
                 <Route exact path="/search/:id" component={ Search } />
                 <Route exact path="/dashboard" component={ DashboardScreen } />
@@ -49,7 +49,7 @@ const AppRouter  = () => {
                 <Route exact path="/form-assistant" component={ FormAssistantComponent } />
                 {/* <Route exact path="/battle" component={ Batalla } /> */}
                 <Route exact path="/repechaje" component={ ListadoBatalla } />
-                <Route exact path="/entradaSalonLook" component={ Entradas } />
+                {/* <Route exact path="/entradaSalonLook" component={ Entradas } /> */}
                 <Route exact path="/validationVote/:id" component={ ValidationVotes } />
                 
                 <Redirect to="/" />
