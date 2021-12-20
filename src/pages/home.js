@@ -84,14 +84,14 @@ const HomeScreen = () => {
                     </div>
                 </div>
             </div>
-            <div class="bannerSalon">
+            {/* <div class="bannerSalon">
                 <span>2a VERSIÓN DEL ENCUENTRO PROFESIONAL DE LA IMAGEN Y LA ESTÉTICA INTEGRAL </span>
                 <img className="look" src={look} alt="look" />
                 <img className="logos" src={logos} alt="logos" />
                 <div>
                     <Link to="/salonlook/index">Conoce Más</Link>
                 </div>
-            </div>
+            </div> */}
             <section className="topSales">
                 <div className="raw">
                     <div className="tituloProductosDestacados"> Productos Destacados </div>

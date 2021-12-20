@@ -162,7 +162,7 @@ const HeaderPage = ({onAdd,limpiarCarrito, eliminarProducto, productes, total}) 
                         <Link onClick={() => redireccionar3("/")}>
                             Inicio
                         </Link>
-                        <Link to="/salonlook/index" class="productosMas">Salon Look</Link>
+                        {/* <Link to="/salonlook/index" class="productosMas">Salon Look</Link> */}
                         {/* <div class="productosM">
                             <ExpandMoreIcon class="moreIcon" />
                             <div class="productosVarios">
@@ -214,7 +214,7 @@ const HeaderPage = ({onAdd,limpiarCarrito, eliminarProducto, productes, total}) 
                     </div>
                     <div class="subMenu">
                         <Link onClick={() =>redireccionar3("/")}>Inicio</Link>
-                        <Link onClick={() =>redireccionar3("/salonlook/index")}>Salón Look</Link>
+                        {/* <Link onClick={() =>redireccionar3("/salonlook/index")}>Salón Look</Link> */}
                         {/* <div class="productosMobiles" onClick={expandir}>
                             <div class="product-flex">
                                 <ExpandMoreIcon />
