@@ -16,13 +16,13 @@ import MiCuenta from '../pages/miCuenta/miCuenta';
 import Checkout from '../pages/checkout/checkout';
 import Search from '../pages/search/search';
 import Curso from '../pages/curso/curso';
-import Salon from '../pages/salonlook/salon';
-import FormComponent from '../pages/form/form';
-import Batalla from '../pages/batalla/batalla';
-import ListadoBatalla from '../pages/batalla/listadoParticipantes';
-import FormAssistantComponent from '../pages/formAsistans/formAsistans';
-import Entradas from '../pages/salonlook/entradas';
-import ValidationVotes from '../pages/batalla/validationVotes';
+// import Salon from '../pages/salonlook/salon';
+// import FormComponent from '../pages/form/form';
+// import Batalla from '../pages/batalla/batalla';
+// import ListadoBatalla from '../pages/batalla/listadoParticipantes';
+// import FormAssistantComponent from '../pages/formAsistans/formAsistans';
+// import Entradas from '../pages/salonlook/entradas';
+// import ValidationVotes from '../pages/batalla/validationVotes';
 
 const history = createBrowserHistory();
 const AppRouter  = () => {
